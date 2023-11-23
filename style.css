@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+
+.title {
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px 50px;
+    margin: 10px 20px 0;
+
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin: 0 20px;
+    padding: 20px;
+
+}
+
+.card-text {
+    text-align: center;
+}
+
+img {
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 576px) {
+     
+    .photos {
+        flex-direction: column;
+        
+    }
+   
+}
